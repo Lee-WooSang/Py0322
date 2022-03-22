@@ -58,4 +58,4 @@ def intersect(prelist, postlist):
             retList.append(x)
     return retList
 
-print(intersect("HAM", "SPAM"))
+print(intersect("HAM", "SPAMa"))
