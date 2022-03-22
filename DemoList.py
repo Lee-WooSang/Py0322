@@ -6,4 +6,6 @@ print(type(color))
 print(color)
 
 for item in color:
-    print(item)
+    print(item) 
+
+#test      
