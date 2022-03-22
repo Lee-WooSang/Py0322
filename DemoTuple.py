@@ -22,3 +22,19 @@ print(calc(3,4))
 args=(3,4)
 
 print(calc(*args))
+
+
+
+# 딕셔너리
+color = {"apple" : "red", "banana" : "yellow"}
+print(len(color))
+print(type(color))
+print(color["apple"])
+
+# 반복구문
+for item in color.items():
+    print(item)
+
+print("------------------")    
+for k, v in color.items():
+    print(k, v)
