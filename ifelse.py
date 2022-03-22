@@ -1,0 +1,14 @@
+# if else
+
+score = int(input("점수를 입력:"))
+
+if 90 <= score <= 100:
+    grade = "A"
+elif 80 <= score < 90:
+    grde = "B"
+elif 70 <= socre < 80:
+    grade = "C"
+else:
+    grade = "D"
+
+print("등급은 ", grade)
